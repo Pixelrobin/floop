@@ -2,50 +2,47 @@
 // THIS DOES NOT NEED TO BE RUN
 
 enum eases {
-	sudden,
+	sudden,        // 0
 	
-	linear,
+	linear,        // 1
 	
-	sine_in,
-	sine_out,
-	sine_inout,
+	sine_in,       // 2
+	sine_out,      // 3
+	sine_inout,    // 4
 	
-	quad_in,
-	quad_out,
-	quad_inout,
+	quad_in,       // 5
+	quad_out,      // 6
+	quad_inout,    // 7
 	
-	cube_in,
-	cube_out,
-	cube_inout,
+	cube_in,       // 8
+	cube_out,      // 9
+	cube_inout,    // 10
 	
-	quart_in,
-	quart_out,
-	quart_inout,
+	quart_in,      // 11
+	quart_out,     // 12
+	quart_inout,   // 13
 	
-	quint_in,
-	quint_out,
-	quint_inout,
+	quint_in,      // 14
+	quint_out,     // 15
+	quint_inout,   // 16
 	
-	expo_in,
-	expo_out,
-	expo_inout,
+	expo_in,       // 17
+	expo_out,      // 18
+	expo_inout,    // 19
 	
-	circ_in,
-	circ_out,
-	circ_inout,
+	circ_in,       // 20
+	circ_out,      // 21
+	circ_inout,    // 22
 	
-	back_in,
-	back_out,
-	back_inout,
+	back_in,       // 23
+	back_out,      // 24
+	back_inout,    // 25
 	
-	elastic_in,
-	elastic_out,
-	elastic_inout,
+	elastic_in,    // 26
+	elastic_out,   // 27
+	elastic_inout, // 28
 	
-	bounce_in,
-	bounce_out,
-	bounce_inout
+	bounce_in,     // 29
+	bounce_out,    // 30
+	bounce_inout   // 31
 }
-
-// Run this globally on start
-gml_pragma("global", "FLOOP_SETUP()");
