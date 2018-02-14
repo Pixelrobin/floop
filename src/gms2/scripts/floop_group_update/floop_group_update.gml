@@ -40,7 +40,7 @@ for (tween = 0; tween < ds_list_size(list); tween ++) {
 		// Negative time is used for delay
 		
 		if args[0] >= 0 {
-			ds_map_replace(argument[0], args[1],
+			ds_map_set(argument[0], args[1],
 				floop_tween(
 					args[2], args[3], args[4],
 					args[0], args[6], args[8],
