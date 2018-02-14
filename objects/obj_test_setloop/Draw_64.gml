@@ -1,0 +1,1 @@
+draw_debug_circles(fg, floop_group_get_active(fg));

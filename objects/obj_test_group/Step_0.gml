@@ -1,0 +1,1 @@
+floop_group_update(fg);

@@ -1,0 +1,26 @@
+This is the section for random notes to help me collect my thoughts.
+
+Things that need to be tested:
+	tweening with floop_tween
+	creating a floop group
+	destroying a floop group
+	adding a tween to a floop_group
+	looping a tween in a floop_group
+	tween overwriting
+	canceling a tween
+	setting a value
+	getting a value
+	Iterating floop_group_update by a variable value
+
+Scripts that check for FLOOP_ALL:
+	floop_group_get
+	floop_group_play
+	
+
+Tests:
+	obj_test_getset: Getting/setting values
+	obj_test_tweens: Manual tweening
+	obj_test_group: Create a group and add tweens
+	obj_test_loop: Create group and add looped tweens
+	obj_test_cancelclear: Create group, add tweens then cancel them or clear all
+	obj_test_delta: Control the speed of a group with the mouse
