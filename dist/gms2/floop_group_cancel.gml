@@ -1,5 +1,6 @@
+/// @shipit
+
 /// @desc Cancels a tween after adding it
-/// floop_group_play_tween returns the id to use
 
 /// @arg id    Floop group id
 /// @arg key   Value key or FLOOP_ALL (returned by floop_group_play_tween)
@@ -19,8 +20,8 @@ for (f = 0; f < ds_list_size(list); f ++) {
 	args = list[| f];
 	
 	if skip || args[1] == argument[1] {
-		if wait && args[0] > 0 then args[@ 7] = loops.none;
-		else {		
+		if wait && args[0] > 0 && args[0] >= 0 then args[@ 7] = loops.none;
+		else {
 			list[| f] = 0;
 			ds_list_delete(list, f);
 			f --;

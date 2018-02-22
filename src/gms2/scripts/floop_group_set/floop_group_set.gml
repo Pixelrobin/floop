@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Set a value in a floop_group
 
 /// @arg id    Floop group id

@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Tweens a value in a floop group. If the value doesn't exist yet it just creates one.
 
 /// @arg id       Floop group id

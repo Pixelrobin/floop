@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Update a floop group and it's values according to list set
 
 /// @arg id     Floop group id

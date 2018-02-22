@@ -1,0 +1,26 @@
+{
+  "name": "floop",
+  "version": "1.0.0",
+  "description": "Gamemaker Studio tweening library.",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pixelrobin/floop-gms.git"
+  },
+  "author": "Michael Savchuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Pixelrobin/floop-gms/issues"
+  },
+  "homepage": "https://github.com/Pixelrobin/floop-gms#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-filter-by": "^1.2.0",
+    "gulp-flatten": "^0.4.0",
+    "gulp-print": "^5.0.0"
+  }
+}

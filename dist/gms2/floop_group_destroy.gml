@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Destroy a floop group
 
 /// @arg id Floop group id

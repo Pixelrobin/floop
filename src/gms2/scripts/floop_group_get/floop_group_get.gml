@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Get a value from a floop_group
 
 /// @arg id       Floop group id

@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Check if a floop group exists at a given id
 
 /// @arg id FLoop group id

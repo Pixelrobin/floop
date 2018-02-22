@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc floop README and setup (Doesn't need to be run)
 
 /*

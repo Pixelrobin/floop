@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Create a floop group
 
 var map  = ds_map_create(),

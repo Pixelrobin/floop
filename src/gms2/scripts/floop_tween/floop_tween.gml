@@ -1,3 +1,5 @@
+/// @shipit
+
 /// @desc Tween a value using one of select equations
 
 /// @arg ease     Easing equation to use
