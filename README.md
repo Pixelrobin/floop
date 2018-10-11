@@ -1,7 +1,7 @@
 # floop
-WIP! Almost done!
+Floop is a tweening library built for Gamemaker Studio 2, with the intent to be lightweight and fast as well as easy to use. Floop introduces `floop_groups`, which are `ds_maps` with tweenable values you can queue up.
 
-Floop is a tweening library built for Gamemaker Studio 2, with the intent to be lightweight and fast as well as easy to use. Floop introduces `floop_group`s, which are `ds_maps` with tweenable values.
+It's not quite v1.0 ready, but it's close!
 
 The library was created out of frustration from manually hardcoding blocks of code to manage my tween states. Instead of keeping track of a tween's time, etc, floop groups allow you to simply "fire and forget".
 
@@ -31,7 +31,7 @@ draw_sprite_ext(
 (Code from the [Getting Started](https://github.com/Pixelrobin/floop-gms/wiki/Getting-Started) page in the wiki)
 
 ## Compatibility
-Currently, floop was only tested on **Gamemaker Studio 2**. However, it was built with GMS1.4 compatibility. It _probably_ works, but not officially. GMS1.4 support is coming soon!
+Currently, floop was only tested on **Gamemaker Studio 2**. However, it was built with GMS 1.4 compatibility in mind. It _probably_ works, but not officially. GMS 1.4 support is planned.
 
 ## Installation
 wip!
